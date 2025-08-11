@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --my-color: #16f;
+    --my-font-size: 4rem;
+}
+
+h1 {
+    color: var(--my-color);
+    font-size: var(--my-font-size);
+    display: block;
+    text-align: center;
+}
