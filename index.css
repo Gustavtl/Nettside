@@ -751,7 +751,8 @@ nav .fa-solid {
 @media (max-width: 420px) {
 
     html, body {
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
     
     .container {
@@ -769,7 +770,7 @@ nav .fa-solid {
 
     #header {
         position: relative;
-        width: 100vw;
+        width: 100%;
 /*         overflow-y: auto; */
     }
 
@@ -792,6 +793,7 @@ nav .fa-solid {
     }
 
 }
+
 
 
 
