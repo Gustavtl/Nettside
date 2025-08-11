@@ -749,6 +749,11 @@ nav .fa-solid {
 } */
 
 @media (max-width: 420px) {
+
+    html, body {
+        overflow: auto;
+    }
+    
     .container {
         padding: 10px 5%;
     }
@@ -787,6 +792,7 @@ nav .fa-solid {
     }
 
 }
+
 
 
 
