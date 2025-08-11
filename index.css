@@ -5,11 +5,14 @@
 }
 
 html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+html, body {
     height: auto;
     overflow-y: auto;
     overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-size: 16px;
 }
 
 body {
@@ -246,7 +249,7 @@ nav ul li a:hover::after {
 .work {
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+/*     overflow: hidden; */
 }
 
 .work img {
@@ -789,3 +792,4 @@ nav .fa-solid {
     }
 
 }
+
