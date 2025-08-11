@@ -765,7 +765,7 @@ nav .fa-solid {
     #header {
         position: relative;
         width: 100vw;
-        overflow-y: hidden;
+        overflow-y: auto;
     }
 
     .background-img {
@@ -787,4 +787,5 @@ nav .fa-solid {
     }
 
 }
+
 
